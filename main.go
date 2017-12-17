@@ -7,9 +7,9 @@ import (
 
 func main() {
 	a := []int{10, 5, 9, 2, 4, 3}
-	fmt.Println(a)
-	fmt.Println("InsertionSort: ", sort.InsertionSort(a))
+	fmt.Println("a: ", a)
+	fmt.Println("InsertionSort(a): ", sort.InsertionSort(a))
 	a = []int{10, 5, 9, 2, 4, 3, 91, 44, 20, 12, 16, 4}
-	fmt.Println(a)
-	fmt.Println("MergeSort: ", sort.MergeSort(a))
+	fmt.Println("a: ", a)
+	fmt.Println("MergeSort(a): ", sort.MergeSort(a))
 }
